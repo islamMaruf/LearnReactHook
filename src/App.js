@@ -6,6 +6,7 @@ import HookCounterTwo from "./component/use_state_hook_with_prev_state/HookCount
 import HookCounterThree from "./component/use_state_hook_with_object/HookCounterThree";
 import HookCounterFour from "./component/use_state_with_array/HookCounterFour";
 import HookCounterEffect from "./component/use_effect_after_render/HookCounterEffect";
+import HookCounterConditional from "./component/use_effect_conditional_run/HookCounterConditional";
 
 function App() {
     return (
@@ -19,7 +20,9 @@ function App() {
             {/*lesson 04*/}
             {/*<HookCounterFour/>*/}
             {/*Lesson 05*/}
-            <HookCounterEffect/>
+            {/*<HookCounterEffect/>*/}
+            {/*lesson 06*/}
+            <HookCounterConditional/>
         </div>
     );
 }
