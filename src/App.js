@@ -8,6 +8,7 @@ import HookCounterFour from "./component/use_state_with_array/HookCounterFour";
 import HookCounterEffect from "./component/use_effect_after_render/HookCounterEffect";
 import HookCounterConditional from "./component/use_effect_conditional_run/HookCounterConditional";
 import MouseMove from "./component/use_effect_only_once/MouseMove";
+import MouseContainer from "./component/use_effect_cleanup/MouseContainer";
 
 function App() {
     return (
@@ -25,7 +26,9 @@ function App() {
             {/*lesson 06*/}
             {/*<HookCounterConditional/>*/}
             {/*lesson 07*/}
-            <MouseMove/>
+            {/*<MouseMove/>*/}
+            {/*lesson 08*/}
+            <MouseContainer/>
         </div>
     );
 }

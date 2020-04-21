@@ -9,7 +9,11 @@ function MouseMove() {
         setY(e.clientY);
     }
     useEffect(() => {
-        window.addEventListener('mousemove',logMousePosition)
+        window.addEventListener('mousemove',logMousePosition);
+        //clean uo code
+        return () => {
+            window.removeEventListener('mousemove',logMousePosition);
+        }
     },[])
     return (
         <div>
