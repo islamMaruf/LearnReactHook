@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useState} from "react";
 import MouseMove from "../use_effect_only_once/MouseMove";
 
 function MouseContainer() {
