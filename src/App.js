@@ -13,9 +13,10 @@ import IntervalHookCounter from "./component/use_effect_with_incorrect_dependenc
 import DataFetching from "./component/use_effect_fetch_data/DataFetching";
 import ComponentE from "./component/use_context_hook/ComponentE";
 import CounterOne from "./component/use_reducer_with_simple_state_action/CounterOne";
+import CounterTwo from "./component/use_redcer_with_complex_state_action/CounterTwo";
 
-export const UserContext = React.createContext();
-export const ChannelContext = React.createContext();
+ export const UserContext = React.createContext();
+ export const ChannelContext = React.createContext();
 
 function App() {
     return (
@@ -47,7 +48,9 @@ function App() {
             {/*    </ChannelContext.Provider>*/}
             {/*</UserContext.Provider>*/}
             {/*lesson12 */}
-            <CounterOne/>
+            {/*<CounterOne/>*/}
+            {/*lesson13*/}
+            <CounterTwo/>
         </div>
     );
 }
