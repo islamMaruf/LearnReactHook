@@ -12,6 +12,7 @@ import MouseContainer from "./component/use_effect_cleanup/MouseContainer";
 import IntervalHookCounter from "./component/use_effect_with_incorrect_dependence/IntervalHookCounter";
 import DataFetching from "./component/use_effect_fetch_data/DataFetching";
 import ComponentE from "./component/use_context_hook/ComponentE";
+import CounterOne from "./component/use_reducer_with_simple_state_action/CounterOne";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -40,11 +41,13 @@ function App() {
             {/*lesson10*/}
             {/*<DataFetching/>*/}
             {/*lesson11*/}
-            <UserContext.Provider value={'maruf'}>
-                <ChannelContext.Provider value={'playlist'} >
-                    <ComponentE/>
-                </ChannelContext.Provider>
-            </UserContext.Provider>
+            {/*<UserContext.Provider value={'maruf'}>*/}
+            {/*    <ChannelContext.Provider value={'playlist'} >*/}
+            {/*        <ComponentE/>*/}
+            {/*    </ChannelContext.Provider>*/}
+            {/*</UserContext.Provider>*/}
+            {/*lesson12 */}
+            <CounterOne/>
         </div>
     );
 }
