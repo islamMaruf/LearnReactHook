@@ -10,6 +10,7 @@ import HookCounterConditional from "./component/use_effect_conditional_run/HookC
 import MouseMove from "./component/use_effect_only_once/MouseMove";
 import MouseContainer from "./component/use_effect_cleanup/MouseContainer";
 import IntervalHookCounter from "./component/use_effect_with_incorrect_dependence/IntervalHookCounter";
+import DataFetching from "./component/use_effect_fetch_data/DataFetching";
 
 function App() {
     return (
@@ -31,7 +32,9 @@ function App() {
             {/*lesson 08*/}
             {/*<MouseContainer/>*/}
             {/*lesson09*/}
-            <IntervalHookCounter/>
+            {/*<IntervalHookCounter/>*/}
+            {/*lesson10*/}
+            <DataFetching/>
         </div>
     );
 }
