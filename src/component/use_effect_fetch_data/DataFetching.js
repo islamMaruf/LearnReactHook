@@ -1,8 +1,5 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-const handleClick = () => {
-
-}
 function DataFetching() {
     const [post, setPost] = useState({});
     const [id,setId] = useState(1);
