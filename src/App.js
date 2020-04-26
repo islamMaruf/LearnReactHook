@@ -14,6 +14,7 @@ import DataFetching from "./component/use_effect_fetch_data/DataFetching";
 import ComponentE from "./component/use_context_hook/ComponentE";
 import CounterOne from "./component/use_reducer_with_simple_state_action/CounterOne";
 import CounterTwo from "./component/use_redcer_with_complex_state_action/CounterTwo";
+import CounterThree from "./component/multiple_use_reducer/CounterThree";
 
  export const UserContext = React.createContext();
  export const ChannelContext = React.createContext();
@@ -50,7 +51,9 @@ function App() {
             {/*lesson12 */}
             {/*<CounterOne/>*/}
             {/*lesson13*/}
-            <CounterTwo/>
+            {/*<CounterTwo/>*/}
+            {/*lesson14*/}
+            <CounterThree/>
         </div>
     );
 }
