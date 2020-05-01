@@ -22,6 +22,8 @@
     import DataFetchingTwo from "./component/use_reducer_and_fetch_data/DataFetchingTwo";
     import ParentComponent from "./component/use_callback_hook/ParentComponent";
     import Counter from "./component/use_memo_hook/Counter";
+    import FocusInput from "./component/use_ref_hook/FocusInput";
+    import HookTimer from "./component/use_ref_hook/HookTimer";
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
     export const CounterContext = React.createContext();
@@ -90,8 +92,10 @@
                     {/*lesson 17   */}
                     {/*<ParentComponent/>*/}
                     {/*lesson 18*/}
-                    <Counter/>
-
+                    {/*<Counter/>*/}
+                    {/*lesson19*/}
+                    {/*<FocusInput/>*/}
+                    <HookTimer/>
                 </div>
 
         );
