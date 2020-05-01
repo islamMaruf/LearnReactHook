@@ -20,6 +20,7 @@
     import ComponentC from "./component/use_reducer_with_use_context/ComponentC";
     import DataFetchingOne from "./component/use_reducer_and_fetch_data/DataFetchingOne";
     import DataFetchingTwo from "./component/use_reducer_and_fetch_data/DataFetchingTwo";
+    import ParentComponent from "./component/use_callback_hook/ParentComponent";
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
     export const CounterContext = React.createContext();
@@ -83,8 +84,11 @@
                     {/*    <ComponentC/>*/}
                     {/*</CounterContext.Provider>*/}
                     {/*lesson-16*/}
-                    <DataFetchingOne/>
-                    <DataFetchingTwo/>
+                    {/*<DataFetchingOne/>*/}
+                    {/*<DataFetchingTwo/>*/}
+                    {/*lesson 17   */}
+                    <ParentComponent/>
+
                 </div>
 
         );
