@@ -18,26 +18,28 @@
     import ComponentA from "./component/use_reducer_with_use_context/ComponentA";
     import ComponentB from "./component/use_reducer_with_use_context/ComponentB";
     import ComponentC from "./component/use_reducer_with_use_context/ComponentC";
+    import DataFetchingOne from "./component/use_reducer_and_fetch_data/DataFetchingOne";
+    import DataFetchingTwo from "./DataFetchingTwo";
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
     export const CounterContext = React.createContext();
-    const initialState = 0;
-    const reducer = (state, action) => {
-        switch (action) {
-            case 'increment':
-                return state + 1;
-            case 'decrement':
-                return state - 1;
-            case 'reset':
-                return initialState;
-            default:
-                return state;
-
-        }
-    }
+    // const initialState = 0;
+    // const reducer = (state, action) => {
+    //     switch (action) {
+    //         case 'increment':
+    //             return state + 1;
+    //         case 'decrement':
+    //             return state - 1;
+    //         case 'reset':
+    //             return initialState;
+    //         default:
+    //             return state;
+    //
+    //     }
+    // }
 
     function App() {
-        const [count, dispatch] = useReducer(reducer, initialState);
+        // const [count, dispatch] = useReducer(reducer, initialState);
         return (
             <div className="App">
                     {/*  lesson 01*/}
@@ -74,12 +76,15 @@
                     {/*<CounterThree/>*/}
                     {/*lesson15*/}
 
-                    <CounterContext.Provider value={{countState: count, countDispatch: dispatch}}>
-                        count- {count}
-                        <ComponentA/>
-                        <ComponentB/>
-                        <ComponentC/>
-                    </CounterContext.Provider>
+                    {/*<CounterContext.Provider value={{countState: count, countDispatch: dispatch}}>*/}
+                    {/*    count- {count}*/}
+                    {/*    <ComponentA/>*/}
+                    {/*    <ComponentB/>*/}
+                    {/*    <ComponentC/>*/}
+                    {/*</CounterContext.Provider>*/}
+                    {/*lesson-16*/}
+                    <DataFetchingOne/>
+                    <DataFetchingTwo/>
                 </div>
 
         );
