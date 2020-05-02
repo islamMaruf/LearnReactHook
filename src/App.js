@@ -26,6 +26,9 @@
     import HookTimer from "./component/use_ref_hook/HookTimer";
     import DocTitleOne from "./component/customHook/useDocumentTitleCustomHook/DocTitleOne";
     import DocTitleTwo from "./component/customHook/useDocumentTitleCustomHook/DocTitleTwo";
+    import CounterOneHook from "./component/customHook/useCounterCustomHook/CounterOneHook";
+    import CounterTwoHook from "./component/customHook/useCounterCustomHook/CounterTwoHook";
+
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
     export const CounterContext = React.createContext();
@@ -99,8 +102,11 @@
                     {/*<FocusInput/>*/}
                     {/*<HookTimer/>*/}
                     {/*lesson20*/}
-                    <DocTitleOne/>
-                    <DocTitleTwo/>
+                    {/*<DocTitleOne/>*/}
+                    {/*<DocTitleTwo/>*/}
+                    {/*lesson21*/}
+                    <CounterOneHook/>
+                    <CounterTwoHook/>
                 </div>
 
         );
