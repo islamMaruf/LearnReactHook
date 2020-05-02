@@ -24,6 +24,8 @@
     import Counter from "./component/use_memo_hook/Counter";
     import FocusInput from "./component/use_ref_hook/FocusInput";
     import HookTimer from "./component/use_ref_hook/HookTimer";
+    import DocTitleOne from "./component/customHook/useDocumentTitleCustomHook/DocTitleOne";
+    import DocTitleTwo from "./component/customHook/useDocumentTitleCustomHook/DocTitleTwo";
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
     export const CounterContext = React.createContext();
@@ -95,7 +97,10 @@
                     {/*<Counter/>*/}
                     {/*lesson19*/}
                     {/*<FocusInput/>*/}
-                    <HookTimer/>
+                    {/*<HookTimer/>*/}
+                    {/*lesson20*/}
+                    <DocTitleOne/>
+                    <DocTitleTwo/>
                 </div>
 
         );
