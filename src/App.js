@@ -28,6 +28,7 @@
     import DocTitleTwo from "./component/customHook/useDocumentTitleCustomHook/DocTitleTwo";
     import CounterOneHook from "./component/customHook/useCounterCustomHook/CounterOneHook";
     import CounterTwoHook from "./component/customHook/useCounterCustomHook/CounterTwoHook";
+    import UserForm from "./component/customHook/userInputCustomHook/UserForm";
 
     export const UserContext = React.createContext();
     export const ChannelContext = React.createContext();
@@ -105,8 +106,11 @@
                     {/*<DocTitleOne/>*/}
                     {/*<DocTitleTwo/>*/}
                     {/*lesson21*/}
-                    <CounterOneHook/>
-                    <CounterTwoHook/>
+                    {/*<CounterOneHook/>*/}
+                    {/*<CounterTwoHook/>*/}
+                    {/*lesson22*/}
+                    <UserForm/>
+                    
                 </div>
 
         );
